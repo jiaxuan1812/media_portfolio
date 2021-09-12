@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    margin-bottom: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-container {
+    display: flex;
+}
+
+.hero {
+    background-color: #8cae68;
+    color: white;
+    width: 50%;
+    height: 20vh;
+    display: table;
+    text-align: center;
+}
+
+.links {
+    background-color: #f4807c;
+    flex-grow: 1;
+    height: 20vh;
+    display: table;
+}
+
+nav {
+    margin-left: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 8vh;
+}
+
+li {
+    font-size: 3vh;
+    text-decoration: none;
+    margin-left: 2vh;
+    margin-right: 2vh;
+
+}
+
+.logo {
+    font-size: 5vh;
+    margin-top: 3.5vh;
+    margin-bottom: 2vh;
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: left; /* For Firefox prior 58.0 */
+    text-align-last: left;
+}
+
+.inst {
+    height: 3vh;
+    width: auto;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    filter: invert()
+}
+
+.yt {
+    height: 3vh;
+    width: auto;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.lboxd {
+    height: 3vh;
+    width: auto;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.social {
+    display: table-cell;
+    vertical-align: middle;
+}
+

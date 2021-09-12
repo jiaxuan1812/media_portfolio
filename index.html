@@ -10,7 +10,7 @@
     <title>Photo Portfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles_index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,28 +19,49 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="top-container">
       <section class="hero">
         <nav>
-          <div class="logo">
-            Josh<br />
-            He
-          </div>
+          <a href="index.html">
+            <div class="logo">
+              JSH<br />
+              HE
+            </div>
+          </a>
           <div class="list_container"></div>
           <ul>
-            <li>About Me</li>
-            <li>Contact</li>
+            <a href="about.html">
+              <li>About Me</li>
+            </a>
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
           </ul>
         </nav>
       </section>
       <section class="links">
         <div class="social">
-          <img class="inst" src="assets/inst_logo.png" />
-          <img class="yt" src="assets/yt_logo.png" />
-          <img class="lboxd" src="assets/lboxd_logo.svg" />
+          <a href="https://www.instagram.com/hehe_jsh_/" target="_blank">
+            <img class="inst" src="assets/inst_logo.png" />
+          </a>
+          <a href="https://www.youtube.com/c/Iklelele" target="_blank">
+            <img class="yt" src="assets/yt_logo.svg" />
+          </a>
+          <a href="https://letterboxd.com/jiaxuan1512/" target="_blank">
+            <img class="lboxd" src="assets/lboxd_logo.png" />
+          </a>
         </div>
       </section>
-      <section class="gallery"></section>
+    </div>
+    <div class="gallery-container">
+      <section class="gallery_row1">
+        <div class="photo1">
+          <img class="photo greenvan" src="photos/greenvan.jpg" />
+        </div>
+        <div class="photo2">
+          <img class="photo her" src="photos/her.jpg" />
+        </div>
+      </section>
     </div>
     <script src="app.js" async defer></script>
   </body>
