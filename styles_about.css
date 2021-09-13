@@ -3,9 +3,17 @@
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Spartan', sans-serif;
     margin-bottom: 2vh;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -18,7 +26,7 @@ a {
 }
 
 .hero {
-    background-color: #8cae68;
+    background-color: #87b892;
     color: white;
     width: 50%;
     height: 20vh;
@@ -109,8 +117,41 @@ li {
 
 .description_eng {
     margin-top: 4vh;
+    font-size: 2vh;
 }
 
 .description_ger {
     margin-top: 4vh;
+    font-size: 2vh;
+}
+
+hr {
+    height: 3px;
+    background-color: #ebd2b4;
+    border: none;
+}
+
+.footer-wrapper {
+    text-align: center;
+    margin-top: auto;
+}
+
+.made_by {
+    margin-top: 3vh;
+    font-size: 1.5vh;
+}
+
+.links_footer {
+    background-color: #e7bf8e;
+    height: 5vh;
+    width: 100%;
+    display: table;
+    margin-top: 2vh;
+
+}
+
+.social_footer {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }

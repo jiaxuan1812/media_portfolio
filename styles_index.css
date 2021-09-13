@@ -3,9 +3,17 @@
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Spartan', sans-serif;
     margin-bottom: 2vh;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -18,7 +26,7 @@ a {
 }
 
 .hero {
-    background-color: #8cae68;
+    background-color: #87b892;
     color: white;
     width: 50%;
     height: 20vh;
@@ -27,7 +35,7 @@ a {
 }
 
 .links {
-    background-color: #f4807c;
+    background-color: #fd9894;
     flex-grow: 1;
     height: 20vh;
     display: table;
@@ -92,7 +100,7 @@ li {
     vertical-align: middle;
 }
 
-.gallery_row1 {
+.gallery_row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -104,13 +112,117 @@ li {
 }
 
 .greenvan {
-    margin-top: 2vh;
+    margin-top: 10vh;
     margin-left: 20vh;
-    filter: drop-shadow(1vh 1.5vh 0px #57926b);
+    filter: drop-shadow(-1vh 1.5vh 0px #436e51);
 }
 
 .her {
     margin-top: 15vh;
-    margin-left: 40vh;
-    filter: drop-shadow(-2vh 1vh 0px #da736f);
+    margin-left: 50vh;
+    filter: drop-shadow(-0.5vh -2vh 0px #da736f);
 }
+
+.smokes {
+    margin-top: 20vh;
+    margin-left: 30vh;
+    filter: drop-shadow(1vh -2vh 0px #868686);
+}
+
+.reebok {
+    margin-top: 15vh;
+    margin-left: 30vh;
+    filter: drop-shadow(1vh 0vh 0px #48813a);
+}
+
+.gallery_row_big {
+    display: flex;
+    justify-content: center;
+}
+
+.impronta {
+    height: 70vh;
+    width: auto;
+    margin-top: 10vh;
+    filter: drop-shadow(2vh -0.5vh 0px #c43f3f);
+}
+
+.rainy {
+    margin-top: 10vh;
+    margin-left: 30vh;
+    filter: drop-shadow(-1vh 0vh 0px #2d549c);
+}
+
+.yearn {
+    margin-top: 5vh;
+    margin-left: 40vh;
+    filter: drop-shadow(0.5vh 2vh 0px #691bc25e);
+}
+
+.ghost {
+    margin-top: 20vh;
+    margin-left: 25vh;
+    filter: drop-shadow(1vh 0.5vh 0px #9c7054);
+}
+
+.red {
+    margin-top: 15vh;
+    margin-left: 30vh;
+    filter: drop-shadow(-1vh -0.5vh 0px #a32f2f);
+}
+
+.hat{
+    height: 50vh;
+    width: auto;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    filter: drop-shadow(-0.5vh 2vh 0px #a3ca8c);
+}
+
+.img_gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20vh;
+}
+
+.photo_coll {
+    height: 40vh;
+    width: auto;
+    display: block;
+}
+
+hr {
+    height: 3px;
+    background-color: #ebd2b4;
+    border: none;
+}
+
+.footer-wrapper {
+    text-align: center;
+    margin-top: 5vh;
+
+    bottom: 0;
+}
+
+.made_by {
+    margin-top: 3vh;
+    font-size: 1.5vh;
+}
+
+.links_footer {
+    background-color: #e7bf8e;
+    height: 5vh;
+    width: 100%;
+    display: table;
+    margin-top: 2vh;
+
+}
+
+.social_footer {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
