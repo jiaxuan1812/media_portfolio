@@ -35,7 +35,7 @@ a {
 }
 
 .links {
-    background-color: #fd9894;
+    background-color: #e95e59ab;
     flex-grow: 1;
     height: 20vh;
     display: table;
@@ -183,6 +183,7 @@ li {
     display: flex;
     justify-content: space-around;
     margin-top: 20vh;
+    flex-wrap: wrap;
 }
 
 .photo_coll {
