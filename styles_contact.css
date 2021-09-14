@@ -34,6 +34,7 @@ a {
     text-align: center;
 }
 
+
 .links {
     background-color: #f4807c;
     flex-grow: 1;
@@ -63,6 +64,11 @@ li {
 
 }
 
+li:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
 .logo {
     font-size: 5vh;
     margin-top: 3.5vh;
@@ -70,6 +76,11 @@ li {
     text-align: justify; /* For Edge */
     -moz-text-align-last: left; /* For Firefox prior 58.0 */
     text-align-last: left;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    scale: 1.1;
 }
 
 .inst {
@@ -97,6 +108,11 @@ li {
 .social {
     display: table-cell;
     vertical-align: middle;
+}
+
+.social img:hover {
+    transition: 0.5s;
+    scale: 1.1;
 }
 
 hr {

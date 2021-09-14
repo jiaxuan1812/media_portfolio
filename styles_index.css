@@ -63,6 +63,12 @@ li {
 
 }
 
+
+li:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
 .logo {
     font-size: 5vh;
     margin-top: 3.5vh;
@@ -71,6 +77,11 @@ li {
     -moz-text-align-last: left; /* For Firefox prior 58.0 */
     text-align-last: left;
     font-weight: 400;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    scale: 1.1;
 }
 
 .inst {
@@ -100,6 +111,22 @@ li {
     vertical-align: middle;
 }
 
+.social img:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.gallery_container img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.gallery_container img:hover {
+    opacity: 70%;
+    cursor: pointer;
+    scale: 1.1;
+}
+
 .gallery_row {
     display: flex;
     flex-wrap: wrap;
@@ -108,12 +135,12 @@ li {
 .photo {
     height: 50vh;
     width: auto;
-    display: block;
+    
 }
 
 .greenvan {
     margin-top: 10vh;
-    margin-left: 20vh;
+    margin-left: 25vh;
     filter: drop-shadow(-1vh 1.5vh 0px #436e51);
 }
 
@@ -148,13 +175,13 @@ li {
 }
 
 .rainy {
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 30vh;
     filter: drop-shadow(-1vh 0vh 0px #2d549c);
 }
 
 .yearn {
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: 40vh;
     filter: drop-shadow(0.5vh 2vh 0px #691bc25e);
 }
@@ -174,7 +201,7 @@ li {
 .hat{
     height: 50vh;
     width: auto;
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 10vh;
     filter: drop-shadow(-0.5vh 2vh 0px #a3ca8c);
 }
@@ -223,6 +250,37 @@ hr {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.image_viewer {
+    position: absolute;
+    height: 70vh;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+}
+
+.image_viewer.open {
+    transform: translate(-50%, -50%);
 }
 
 
